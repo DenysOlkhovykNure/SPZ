@@ -13,7 +13,7 @@
         <label for="plainText">Введіть текст для шифрування:</label>
         <input type="text" id="plainText" />
         <label for="encryptionKey">Введіть ключ (число від 1 до 33):</label>
-        <input type="number" id="encryptionKey" min="1" max="25" />
+        <input type="number" id="encryptionKey" min="1" max="33" />
         <button onclick="encrypt()">Зашифрувати</button>
         <p>Зашифрований текст:</p>
         <p id="encryptedText"></p>
@@ -22,8 +22,8 @@
         <h2>Дешифрування</h2>
         <label for="encryptedTextToDecrypt">Введіть зашифрований текст:</label>
         <input type="text" id="encryptedTextToDecrypt" />
-        <label for="decryptionKey">Введіть ключ (число від 1 до 25):</label>
-        <input type="number" id="decryptionKey" min="1" max="25" />
+        <label for="decryptionKey">Введіть ключ (число від 1 до 33):</label>
+        <input type="number" id="decryptionKey" min="1" max="33" />
         <button onclick="decrypt()">Дешифрувати</button>
         <p>Розшифрований текст:</p>
         <p id="decryptedText"></p>
