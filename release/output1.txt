@@ -1,0 +1,7 @@
+
+ Виробник			GenuineIntel
+ Назва				Intel64 Family 6 Model 140 Stepping 1
+ Завантаженість 		24
+ Максимальна частота	2419
+ Назва процесора		11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+ Кількість ядер		4
